@@ -1,0 +1,32 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Aperture
+font=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Noto Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[kdeglobals][WM]
+activeFont=Noto Sans,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1
+
+[kdeglobals][Icons]
+Theme=kora
+
+[plasmarc][Theme]
+name=Aperture
+
+[kcminputrc][Mouse]
+cursorTheme=Breeze_Light
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze
+
+[ksplashrc][KSplash]
+Theme=Aperture
+
+[Wallpaper]
+Image=Aperture

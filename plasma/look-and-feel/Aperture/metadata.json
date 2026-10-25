@@ -1,0 +1,13 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [{"Name": "alaz"}],
+        "Category": "Plasma Look And Feel",
+        "Description": "Pure black, orange and blue global theme",
+        "EnabledByDefault": true,
+        "Id": "Aperture",
+        "License": "MIT",
+        "Name": "Aperture",
+        "Version": "1.0"
+    }
+}

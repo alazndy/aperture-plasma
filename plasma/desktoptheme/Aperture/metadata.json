@@ -1,0 +1,10 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "alaz"}],
+        "Id": "Aperture",
+        "Name": "Aperture",
+        "Description": "Pure black, orange and blue Plasma theme",
+        "License": "MIT",
+        "Version": "1.0"
+    }
+}

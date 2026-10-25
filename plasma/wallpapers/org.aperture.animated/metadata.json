@@ -1,0 +1,12 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [{"Name": "alaz"}],
+        "Description": "Animated Aperture logo on pure black",
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "org.aperture.animated",
+        "License": "MIT",
+        "Name": "Aperture Animated",
+        "Version": "1.0"
+    }
+}
