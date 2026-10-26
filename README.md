@@ -12,7 +12,7 @@ colors, fonts, Plasma style, application style, wallpaper, lock screen, splash, 
 | Part | Details |
 |---|---|
 | Color scheme | `Aperture.colors`: `#000000` window and view, orange selection, blue focus and links |
-| Plasma style | opaque black panels, popups and notifications with a thin muted-orange outline |
+| Plasma style | opaque black panels, popups and notifications with a thin orange outline |
 | Application style | Kvantum theme `Aperture` (based on KvFlat), visible control borders on black |
 | Fonts | Noto Sans 10 (UI), Noto Sans Mono 10 (fixed) |
 | Wallpaper | static wallpaper for the desktop, plus an animated wallpaper plugin for the lock screen |
@@ -59,3 +59,10 @@ installer does not touch it. Open System Settings → Login Screen and press
 ## License
 
 MIT, see [LICENSE](LICENSE). `assets/logo.png` is the project logo and is covered by the same license.
+
+## Extras
+
+| Part | What |
+| --- | --- |
+| Chromium | `chromium/Aperture`: black theme with orange icons and blue links. Load it unpacked from `chrome://extensions`; the installer copies it to `~/.local/share/aperture-chromium`. |
+| ZapFast, SpotiFast | `apps/Aperture-palette.json`: black palette with a blue accent. Installed to `~/.config/<app>/themes/` when the app exists; pick it under Settings > Appearance. |

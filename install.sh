@@ -20,8 +20,18 @@ install_dir "$here/konsole"                               "$data/konsole"
 sed -i "s#@KONSOLE_DIR@#$data/konsole#" "$data/konsole/Aperture.colorscheme"
 rm -f "$data/konsole/aperture-bg.png.bak"
 
+# Chromium: unpacked theme (load it once from chrome://extensions)
+install_dir "$here/chromium/Aperture"                     "$data/aperture-chromium"
+# ZapFast / SpotiFast palettes (only if the app is installed)
+for app in zapfast spotifast; do
+  if [[ -d "$conf/$app" ]]; then
+    mkdir -p "$conf/$app/themes"; cp "$here/apps/Aperture-palette.json" "$conf/$app/themes/Aperture.json"
+  fi
+done
+
 gtk-update-icon-cache -f -t "$data/icons/hicolor" >/dev/null 2>&1 || true
 echo "Aperture installed."
+echo "Chromium: chrome://extensions > Developer mode > Load unpacked > $data/aperture-chromium"
 
 if [[ "${1:-}" == "--apply" ]]; then
   kwriteconfig6 --file "$conf/Kvantum/kvantum.kvconfig" --group General --key theme Aperture
