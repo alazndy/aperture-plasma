@@ -12,7 +12,7 @@ colors, fonts, Plasma style, application style, wallpaper, lock screen, splash, 
 | Part | Details |
 |---|---|
 | Color scheme | `Aperture.colors`: `#000000` window and view, orange selection, blue focus and links |
-| Plasma style | opaque black panels with an orange outline, popups and notifications with a blue outline |
+| Plasma style | opaque black panels, popups and notifications with a thin muted-orange outline |
 | Application style | Kvantum theme `Aperture` (based on KvFlat), visible control borders on black |
 | Fonts | Noto Sans 10 (UI), Noto Sans Mono 10 (fixed) |
 | Wallpaper | static wallpaper for the desktop, plus an animated wallpaper plugin for the lock screen |
